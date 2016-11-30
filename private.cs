@@ -33,6 +33,9 @@ namespace Loops
         static void Main(string[]args)
         {
             Rectangle r = new Rectangle();
+            r.Acceptdetails();
+            r.Display();
+            Console.ReadLine();
 
         }
     }
