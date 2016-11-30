@@ -32,6 +32,7 @@ namespace Loops
     {
         static void Main(string[]args)
         {
+            Rectangle r = new Rectangle();
 
         }
     }
