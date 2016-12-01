@@ -10,7 +10,7 @@ namespace ArrayApplication
             /*initialize elements of an array*/
             for(int i=0;i<10;i++)
             {
-                n[i] = 100;
+                n[i] = i+100;
             }
 
             /*output each array element's value*/
