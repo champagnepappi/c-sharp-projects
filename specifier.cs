@@ -5,7 +5,7 @@ namespace RectangleApplication
     {
         //member variables
         internal double length;
-        internal double length;
+        internal double width;
 
         double GetArea()
         {
