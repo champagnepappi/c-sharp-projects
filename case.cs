@@ -29,6 +29,8 @@ namespace DecisionMaking
                      Console.WriteLine("Invalid grade");
                      break;
              }
+             Console.WriteLine("Your grade is: {0}", grade);
+             Console.WriteLine();
         }
     }
 }
