@@ -10,5 +10,17 @@ namespace CalculatorApp
             Console.WriteLine("Enter the second value: ");
             y = Convert.ToInt32(Console.ReadLine());
         }
+        static void Main(string[]args)
+        {
+            NumberManipulator n = new NumberManipulator();
+            int a, b;
+
+            //call function to get the values
+            n.getValues(out a, out b);
+            Console.WriteLine("After Method Call, value of a: {0}", a);
+            Console.WriteLine("After Method Call, value of b: {0}", b);
+            Console.ReadLine();
+
+        }
     }
 }
