@@ -20,6 +20,8 @@ namespace DecisionMaking
                     }
                     break;
             }
+            Console.WriteLine("Exact value of a is : {0}", a);
+            Console.WriteLine("Exact value of b is : {0}", b);
         }
     }
 }
