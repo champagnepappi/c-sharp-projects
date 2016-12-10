@@ -14,4 +14,14 @@ namespace ArrayApplication
             return sum;
         }
     }
+    class TestClass
+    {
+        static void Main(string[]args)
+        {
+            ParamArray app = new ParamArray();
+            int sum = app.AddElements(512,720,250,567,888);
+            Console.WriteLine("The sum is: {0}", sum);
+            Console.ReadKey();
+        }
+    }
 }
